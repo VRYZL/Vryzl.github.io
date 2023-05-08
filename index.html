@@ -23,7 +23,7 @@
 							<header>
 								<h1><a href="index.html" id="logo">Srinath</a></h1>
 								<hr />
-								<p>Robotics engineer and video game programmer</p>
+								<p>Robotics engineer | Video game programmer</p>
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Start</a>
@@ -35,10 +35,10 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li>
-									<a href="#">Dropdown</a>
+									<a href="#">Projects</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Robotics</a></li>
+										<li><a href="#">Video games</a></li>
 										<li><a href="#">Etiam dolore nisl</a></li>
 										<li>
 											<a href="#">And a submenu &hellip;</a>
@@ -55,6 +55,7 @@
 								<li><a href="left-sidebar.html">Left Sidebar</a></li>
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
 								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li><a href="#">About me</a></li>
 							</ul>
 						</nav>
 
@@ -65,8 +66,9 @@
 					<header>
 						<h2>Hi. I am <strong>Srinath</strong>.</h2>
 						<p>
-							A (free) responsive site template by <a href="http://html5up.net">HTML5 UP</a>.
-							Built with HTML5/CSS3 and released under the <a href="http://html5up.net/license">CCA</a> license.
+							A robotics engineer and a video game programmer.
+							Interested in the field of Modular robotics, mobile robotics and intelligent machines.
+							A fan of Action Adventure RPGs with a dream of building my own RPG world.
 						</p>
 					</header>
 				</section>
@@ -383,5 +385,48 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script type="module">
+
+				// Import the functions you need from the SDKs you need
+			  
+				import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+			  
+				import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+			  
+				// TODO: Add SDKs for Firebase products that you want to use
+			  
+				// https://firebase.google.com/docs/web/setup#available-libraries
+			  
+			  
+				// Your web app's Firebase configuration
+			  
+				// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			  
+				const firebaseConfig = {
+			  
+				  apiKey: "AIzaSyCEtNOgq19Yj6JFR9h8YHgDrcJUSkBwzS0",
+			  
+				  authDomain: "vryzl-f4aff.firebaseapp.com",
+			  
+				  projectId: "vryzl-f4aff",
+			  
+				  storageBucket: "vryzl-f4aff.appspot.com",
+			  
+				  messagingSenderId: "157438463885",
+			  
+				  appId: "1:157438463885:web:1ad0d1a9eab93294ecb7c4",
+			  
+				  measurementId: "G-SVZZ30493L"
+			  
+				};
+			  
+			  
+				// Initialize Firebase
+			  
+				const app = initializeApp(firebaseConfig);
+			  
+				const analytics = getAnalytics(app);
+			  
+			  </script>
 	</body>
 </html>
